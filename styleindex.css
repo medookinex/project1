@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+i {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    size: 300%;
+}
+
+header img {
+    width: 6%;
+    margin: 10px 0px 10px 470px;
+}
+
+.login-box {
+    width: 368px;
+    height: 385px;
+    border: 1px solid #dbdbdb;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.login-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.a1 {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    margin: 20px 10px 10px 10px;
+}
+
+.a2 {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 7px 10px 7px;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 38px;
+    margin-top: 5px;
+    padding: 9px 0 7px 8px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+}
+
+button {
+    display: block;
+    background-color: #0095f6;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 40px 8px 40px;
+    width: 300px;
+    height: 38px;
+    margin-top: 13px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+    border: 0px solid black;
+
+}
+
+.app {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 75px;
+}
+
+.app2 img {
+    display: inline;
+    width: 136px;
+    height: 40px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    header {
+        position: relative;
+        height: 100px;
+        text-align: center;
+    }
+
+    header img {
+        position: relative;
+        width: 230px;
+        margin: 20px;
+    }
+
+    body {
+        background-color: #ffffff;
+    }
+
+    .login-box {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px;
+    }
+
+    .login-box img {
+        width: 21%;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+    .a1 {
+        font-size: 43px;
+        font-weight: 400;
+        margin: 20px 10px 30px 10px;
+    }
+
+    .a2 {
+        color: grey;
+        font-size: 33px;
+        margin: 0px 57px 60px 57px;
+    }
+
+    input {
+        background-color: #f8f8f8;
+        font-size: 28px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8px 40px 8px 25px;
+        width: 85%;
+        height: 90px;
+        margin-top: 13px;
+        border-radius: 10px;
+    }
+
+    button {
+        font-size: 28px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8px 40px 8px 40px;
+        width: 85%;
+        height: 90px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+    }
+
+    .app {
+        display: none;
+    }
+
+    .app2 {
+        display: none;
+    }
+}

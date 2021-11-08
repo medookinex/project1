@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafafa;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.login-form {
+    width: 348px;
+    height: 350px;
+    border: 1px solid #dbdbdb;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.login-form img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.phone {
+    display: none;
+}
+
+a.zaloguj {
+    display: block;
+    text-align: center;
+    color: red;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+hr {
+    width: 258px;
+    border-top: 1px solid #dbdbdb;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 258px;
+    height: auto;
+    margin-top: 5px;
+    padding: 9px 0 7px 8px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+}
+
+button {
+    display: block;
+    background-color: #0095f6;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 40px 8px 40px;
+    width: 258px;
+    height: auto;
+    margin-top: 13px;
+    border-radius: 2px;
+    border: 0px solid black;
+}
+
+.facebook {
+    text-align: center;
+    color: #0b588b;
+    margin-bottom: 50px;
+}
+
+.facebook a {
+    color: #385185;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.app {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 75px;
+}
+
+.app2 img {
+    display: inline;
+    width: 136px;
+    height: 40px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.a1 {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    margin: 20px 10px 10px 10px;
+}
+
+.a2 {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 7px 10px 7px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    header {
+        position: relative;
+        height: 100px;
+        text-align: center;
+    }
+
+    header img {
+        position: relative;
+        width: 230px;
+        margin: 20px;
+    }
+
+    body {
+        margin: 0;
+        background-color: #FFFFFF;
+    }
+
+    .login-form {
+        width: 100%;
+        border: none;
+        margin-top: 120px
+    }
+
+    .login-form img {
+        display: block;
+        width: 21%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .a1 {
+        font-size: 43px;
+        font-weight: 400;
+        margin: 20px 10px 10px 10px;
+    }
+
+    .a2 {
+        color: grey;
+        font-size: 33px;
+        margin: 20px 70px 30px 70px;
+    }
+
+    input {
+        background-color: rgb(250, 250, 250);
+        font-size: 30px;
+        width: 85%;
+        height: 105px;
+        margin-top: 20px;
+        padding: 19px 0 17px 18px;
+        border-radius: 8px;
+        border: 1px solid #9b9b9b;
+        box-shadow: none;
+    }
+
+    button {
+        font-size: 30px;
+        width: 85%;
+        height: 105px;
+        margin-top: 40px;
+        padding: 8px 40px 8px 40px;
+        border-radius: 8px;
+    }
+
+    hr {
+        width: 80%;
+        border-top: 1px solid #dbdbdb;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .facebook {
+        font-size: 33px;
+    }
+
+    .facebook a {
+        font-size: 33px;
+    }
+
+    .app {
+        display: none;
+    }
+
+    .app2 {
+        display: none;
+    }
+}

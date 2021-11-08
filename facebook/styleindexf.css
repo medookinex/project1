@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.a1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 376px;
+    height: 356px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+}
+
+input {
+    display: block;
+    font-size: 17px;
+    width: 100%;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    border: 1px solid #DDDFE2;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+button.button1 {
+    display: block;
+    background-color: #1877F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    height: 48px;
+    border: 0;
+    border-radius: 6px;
+}
+
+.a2 {
+    color: #1877F2;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+hr {
+    border-top: 1px solid #d6d6d6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button.button2 {
+    display: block;
+    background-color: #3FB228;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    width: 50%;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    border-radius: 6px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .login-form {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 0;
+        border: none;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    img.logo {
+        width: 250px;
+        margin-bottom: 50px;
+    }
+
+    .a1 {
+        display: none;
+    }
+
+    input {
+        background-color: #ebebeb;
+        font-size: 35px;
+        width: 90%;
+        height: 95px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0 0 30px;
+        border: 0;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+
+    button.button1 {
+        font-size: 35px;
+        font-weight: 700;
+        width: 90%;
+        height: 95px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0;
+    }
+
+    .a2 {
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+
+    hr {
+        width: 90%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    button.button2 {
+        font-size: 35px;
+        font-weight: 700;
+        width: 45%;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0;
+        border-radius: 6px;
+    }
+
+}
